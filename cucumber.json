@@ -1,0 +1,1889 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T16:25:08.530Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2931000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Register with an invalid email",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1141000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1989000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 1298765432, @gmail.com and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1298765432",
+                  "offset": 16
+                },
+                {
+                  "val": "@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 787000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see Email address is invalid messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is invalid",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:15.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Register with an invalid email",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-email;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1091000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1957000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 1987654321, cft@com and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987654321",
+                  "offset": 16
+                },
+                {
+                  "val": "cft@com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 40
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see Email address is invalid messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is invalid",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:21.925Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Register with an invalid email",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-email;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1091000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1967000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 9876543210, asd@gmail. and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876543210",
+                  "offset": 16
+                },
+                {
+                  "val": "asd@gmail.",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 702000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see Email address is invalid messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is invalid",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:28.159Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Register with an invalid email",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-email;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1095000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 8976543218, mny/gmail.com and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8976543218",
+                  "offset": 16
+                },
+                {
+                  "val": "mny/gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 46
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 761000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see Email address is invalid messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is invalid",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:34.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Register with an invalid email",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-email;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1092000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1971000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 6543210987,  and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6543210987",
+                  "offset": 16
+                },
+                {
+                  "val": "",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 33
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see Email address is required messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is required",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:40.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2213000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Register with an invalid password",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1093000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1899000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Customer enters 1987654321, alex@gmail.com and ypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1987654321",
+                  "offset": 16
+                },
+                {
+                  "val": "alex@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "ypassword",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Customer should see The password does not meet the correct format. messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The password does not meet the correct format.",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:46.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2401000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Register with an invalid password",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1108000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2525000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 513000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Customer enters 9876543210, juniorsep@gmail.com and Mypasswo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9876543210",
+                  "offset": 16
+                },
+                {
+                  "val": "juniorsep@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypasswo",
+                  "offset": 52
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Customer should see The password does not meet the correct format. messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The password does not meet the correct format.",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:25:54.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Register with an invalid password",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Customer enters 8976543218, mark@gmail.com and Mysword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8976543218",
+                  "offset": 16
+                },
+                {
+                  "val": "mark@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mysword",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Customer should see The password does not meet the correct format. messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The password does not meet the correct format.",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:00.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2211000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Register with an invalid password",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1095000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Customer enters 6543210987, rodrigez@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6543210987",
+                  "offset": 16
+                },
+                {
+                  "val": "rodrigez@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Customer should see Password is required messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:06.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2238000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1093000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1961000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters 876543dk2, daniel@gmail.com and Mypasswo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "876543dk2",
+                  "offset": 16
+                },
+                {
+                  "val": "daniel@gmail.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Mypasswo",
+                  "offset": 48
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 710000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Mobile number must be numeric messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile number must be numeric",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:13.243Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2192000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1092000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2014000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters ?467, joseph@gmail.com and Mypassword11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "?467",
+                  "offset": 16
+                },
+                {
+                  "val": "joseph@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Mypassword11",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Mobile number must be numeric messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile number must be numeric",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:19.597Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2234000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1094000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters bnmhye, jonson@gmail.com and 23Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bnmhye",
+                  "offset": 16
+                },
+                {
+                  "val": "jonson@gmail.com",
+                  "offset": 24
+                },
+                {
+                  "val": "23Mypassword",
+                  "offset": 45
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Mobile number must be numeric messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile number must be numeric",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:26.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2078000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters 873, maria@gmail.com and Mypas123sword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "873",
+                  "offset": 16
+                },
+                {
+                  "val": "maria@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "Mypas123sword",
+                  "offset": 41
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 806000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Telephone number must be longer than 9 characters messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telephone number must be longer than 9 characters",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:32.499Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2202000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1936000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters 564321897002345, bidenbar@hotmail.com and 12Mypassword56",
+            "match": {
+              "arguments": [
+                {
+                  "val": "564321897002345",
+                  "offset": 16
+                },
+                {
+                  "val": "bidenbar@hotmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "12Mypassword56",
+                  "offset": 58
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 739000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Telephone number must be 13 or less characters messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telephone number must be 13 or less characters",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T16:26:38.882Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Register with an invalid mobile number",
+        "description": "",
+        "id": "invalid-registration;register-with-an-invalid-mobile-number;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1095000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Customer enters , maxima@gmail.com and Mypassword0982",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 16
+                },
+                {
+                  "val": "maxima@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "Mypassword0982",
+                  "offset": 39
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 670000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Customer should see Mobile number is required messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mobile number is required",
+                  "offset": 20
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@invalid"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Invalid Registration",
+    "description": "",
+    "id": "invalid-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/onboarding/invalidRegistration.feature",
+    "tags": [
+      {
+        "name": "@regressionSuite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T16:26:45.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2235000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Register as a RingGo account",
+        "description": "",
+        "id": "registration;register-as-a-ringgo-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ringo.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1886000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer is on the register page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerIsOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters 9012345678, abc@gmail.com and Mypassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9012345678",
+                  "offset": 16
+                },
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Mypassword",
+                  "offset": 46
+                }
+              ],
+              "location": "com.ringo.steps.StepDefinitions.customerEntersAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 719000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer click to updates buttons and Terms \u0026 Conditions",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerClickToUpdatesButtonsAndTermsConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer should see login page",
+            "match": {
+              "location": "com.ringo.steps.StepDefinitions.customerShouldSeeLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionSuite"
+          },
+          {
+            "name": "@register"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@valid"
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/onboarding/register.feature",
+    "tags": [
+      {
+        "name": "@regressionSuite",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  }
+]
